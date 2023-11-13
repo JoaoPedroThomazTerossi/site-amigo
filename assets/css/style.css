@@ -1,4 +1,14 @@
-/*# General */
+/**
+* Template Name: Medilab
+* Updated: Sep 18 2023 with Bootstrap v5.3.2
+* Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -474,13 +484,7 @@ h6 {
 #hero h2 {
   color: #2c4964;
   margin: 10px 0 0 0;
-  font-size: 35px;
-}
-
-#hero h3 {
-    color: #2c4964;
-    margin: 10px 0 0 0;
-    font-size: 24px;
+  font-size: 24px;
 }
 
 #hero .btn-get-started {
