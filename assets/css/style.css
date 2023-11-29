@@ -1,5 +1,14 @@
+/**
+* Template Name: Medilab
+* Updated: Sep 18 2023 with Bootstrap v5.3.2
+* Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
 
-/*# General */
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -96,6 +105,58 @@ h6 {
 
 .datepicker-dropdown {
   padding: 20px !important;
+}
+
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+#topbar {
+  background: #fff;
+  height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
+  z-index: 996;
+}
+
+#topbar.topbar-scrolled {
+  top: -40px;
+}
+
+#topbar .contact-info a {
+  line-height: 1;
+  color: #444444;
+  transition: 0.3s;
+}
+
+#topbar .contact-info a:hover {
+  color: #1977cc;
+}
+
+#topbar .contact-info i {
+  color: #1977cc;
+  padding-right: 4px;
+  margin-left: 15px;
+  line-height: 0;
+}
+
+#topbar .contact-info i:first-child {
+  margin-left: 0;
+}
+
+#topbar .social-links a {
+  color: #437099;
+  padding-left: 15px;
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+}
+
+#topbar .social-links a:hover {
+  color: #1977cc;
+}
+
+#topbar .social-links a:first-child {
+  border-left: 0;
 }
 
 /*--------------------------------------------------------------
@@ -417,19 +478,13 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
-  color: #2c4964;
+  color: black;
 }
 
 #hero h2 {
-  color: #2c4964;
+  color:black;
   margin: 10px 0 0 0;
-  font-size: 35px;
-}
-
-#hero h3 {
-  color: #2c4964;
-  margin: 10px 0 0 0;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 #hero .btn-get-started {
@@ -663,7 +718,9 @@ section {
   color: #848484;
 }
 
-/* # About */
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
 .about .icon-boxes h4 {
   font-size: 18px;
   color: #4b7dab;
@@ -730,7 +787,7 @@ section {
 }
 
 .about .video-box {
-  background: url("") center center no-repeat;
+  background: url("../img/about.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
